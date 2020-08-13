@@ -4,6 +4,15 @@ public class ListBean {
     private int id;
     private String name;
     private String link;
+    private String url;
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getUrl() {
+        return url;
+    }
 
     public int getId() {
         return id;
@@ -31,6 +40,7 @@ public class ListBean {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", link='" + link + '\'' +
+                ", url='" + url + '\'' +
                 '}';
     }
 
