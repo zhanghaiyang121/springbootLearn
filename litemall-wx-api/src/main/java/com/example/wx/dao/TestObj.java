@@ -3,7 +3,6 @@ package com.example.wx.dao;
 
 
 import com.example.db.bean.ListBean;
-import com.example.db.bean.UserBean;
 
 import java.util.List;
 

@@ -28,7 +28,4 @@ public class helloController {
         TestObj data=new TestObj(200,"获取数据成功",list);
         return data;
     }
-
-
-
 }
